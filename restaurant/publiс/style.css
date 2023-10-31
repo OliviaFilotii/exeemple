@@ -6,16 +6,21 @@ body{
   padding: 10px;
 }
 .header{
-  background-image: url(cop7.jpg);
+  background-image: url(img/cop7.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .header-line{
-  padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: transparent;
+  padding: 40px;
+  margin-top: -10px;
+  margin-left: -170px;
+  margin-right: -170px;
+  background-color: rgb(240, 248, 255, 0.9);
 }
 .nav-item{
   color: black;
@@ -24,9 +29,11 @@ body{
   font-size: 23px;
   margin-right: 25px;
   transition: color 0.3 linear;
+  padding: 9px;
 }
 .nav-item:hover{
   color: darkred;
+  text-decoration:underline;
 }
 .cart{
   position: relative;
@@ -46,6 +53,7 @@ body{
 }
 .numar:hover{
   color: darkred;
+  text-decoration: underline;
 }
 .fon-text{
   font-size: 15px;
@@ -62,14 +70,31 @@ body{
 }
 .button:hover{
   background-color: red;
+  box-shadow:  10px 10px 40px 10px lightyellow;
+}
+.cautm{
+  display: flex;
+  justify-content: right;
+  margin-left: 96%;
+  margin-top: -21px;
 }
 .logo{
   color: black;
   font-weight: lighter;
   font-size: 30px;
-  border: 2px solid darkred;
+  border: 3px solid darkred;
   padding: 10px;
+  background-color: #fefefe;
 }
+
+@media screen and (max-width: 425px){
+  nav{
+      flex-direction: column;
+  }
+  
+ 
+}
+
 
 .cards-holder{
   display:flex;
@@ -80,7 +105,7 @@ body{
   width: 350px;
   margin-right: 10px;
   background-color: white;
-  margin-top: -110px;
+  margin-top: -40px;
   padding: 10px -1px;
 }
 .card-image{
@@ -172,7 +197,7 @@ body{
 }
 
 .block{
-  background-image: url(sala2.jpg);
+  background-image: url(img/sala2.jpg);
   padding: 60px 0;
   background-repeat: no-repeat;
   height: 100vh;
@@ -194,7 +219,7 @@ body{
   
   }
   
-  .right-btn{
+  .right-btns{
   color: white;
   text-decoration: none;
    padding: 16px 19px;
@@ -204,7 +229,7 @@ body{
   
   }
   
-  .right-btn:hover{
+  .right-btns:hover{
    background-color:  red;
   
   }
@@ -294,23 +319,24 @@ body{
     margin-left: 160px;
     margin-top: -1105px;
   }
-
-  .right-buttonmenu{
-   color: white;
-   text-decoration: none;
+  .right-btn:hover{
+    background-color:  red;
+  }
+  .right-btn{
+  color: white;
+  text-decoration: none;
    padding: 16px 19px;
    font-weight: 700;
+   transition: background-color 0.3s linear;
    background-color:darkred;
    margin-left: 350px;
    margin-top: -20px;
-  }
-  .right-buttonmenu:hover{
-    background-color:  white;
   }
 
   .mancare3{
     display: flex;
     justify-content: center;
+    border-radius: 50%;
   }
   .mancare-item3{
     display: flex;
@@ -319,7 +345,7 @@ body{
     margin-top: 110px;
   }
   .mancare-img3{
-    margin-right: 20px;
+    margin-right: 5px;
     margin-top: 10px;
     margin-left: 20px;
   }
@@ -355,7 +381,7 @@ body{
    }
 
    .servis{
-    background-image: url(gal3.jpg);
+    background-image: url(img/gal3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
@@ -450,3 +476,79 @@ body{
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
+
+.titlu-end{
+  font-size: 40px;
+  font-weight: 700;
+}
+.informatii-end{
+  padding-top: 100px;
+  background-color: #a2a2a2;
+  margin-top: 100px;
+  padding-bottom:  25px;
+
+}
+.inf{
+  font-size: 20px;
+  padding: 10px;
+}
+.social{
+  text-decoration: none;
+  color: black;
+}
+.m{
+  color: darkred;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.social:hover{
+  color: aliceblue;
+}
+.video{
+  width: 800px;
+  position: relative;
+  margin-left: 480px;
+  margin-top: -250px;
+  margin-bottom: 30px;
+}
+.c-header{
+text-align: center;
+margin-top: 100px;
+}
+.c-header p{
+  font-size:20px;
+  color: darkred;
+  margin-bottom: 50px;
+}
+.con{
+  font-size: 40px;
+}
+
+
+.bu{
+  text-decoration: none;
+  color: white;
+  background-color: darkred;
+  padding: 14px 500px;
+}
+.butc{
+  margin-top: 70px;
+  text-align: center;
+}
+.bu:hover{
+  font-weight: 900;
+  box-shadow: 10px 10px 40px 10px rgba(196, 196, 193, 0.818); ;
+}
+
+.mb-3{
+  text-align: center;
+  padding: 10px;
+  padding: 10px;
+}
+.form-control{
+  padding: 10px 400px;
+ text-align: center;
+  
+}
+
