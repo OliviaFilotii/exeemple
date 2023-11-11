@@ -1,0 +1,546 @@
+body{
+    margin: 0;
+  }
+  .container{
+    margin: 0px 160px;
+    padding: 10px;
+  }
+  .header{
+    background-image: url(img/cop7.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 40px;
+    margin-top: -10px;
+    margin-left: -170px;
+    margin-right: -170px;
+    background-color: rgb(240, 248, 255, 0.9);
+  }
+  .nav-item{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 23px;
+    margin-right: 25px;
+    transition: color 0.3 linear;
+    padding: 9px;
+  }
+  .nav-item:hover{
+    color: darkred;
+    text-decoration:underline;
+  }
+  .cart{
+    position: relative;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    height: 50px;
+  }
+  .cart-img{
+    position: absolute;
+    top: 18px;
+    right: 6px;
+  }
+  .numar{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .numar:hover{
+    color: darkred;
+    text-decoration: underline;
+  }
+  .fon-text{
+    font-size: 15px;
+    font-weight: 400;
+    color: darkred;
+  }
+  .button{
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 500;
+    transition: background-color 0.2 linear;
+  }
+  .button:hover{
+    background-color: red;
+    box-shadow:  10px 10px 40px 10px lightyellow;
+  }
+  .cautm{
+    display: flex;
+    justify-content: right;
+    margin-left: 96%;
+    margin-top: -21px;
+  }
+  .logo{
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    border: 3px solid darkred;
+    padding: 10px;
+    background-color: #fefefe;
+  }
+  
+  @media screen and (max-width: 1200px){
+    
+    .container{
+      flex-direction: column;
+    }
+    .limb{
+      padding-right: 15px;
+    }
+    .istoria-holder{
+      flex-direction: column;
+      padding-bottom: 400px;
+    }
+    .images-2{
+      padding-top: 110px;
+    }
+    .images-3{
+      padding-top: 110px;
+    }
+    .images-1{
+      padding-top: 110px;
+    }
+    .img-istorie{
+      padding-bottom: 100px;
+    }
+    
+  }
+  
+  
+  .cards-holder{
+    display:flex;
+    justify-content: right;
+  }
+  .card{
+    box-shadow: 10px 10px 40px 10px lightyellow;
+    width: 350px;
+    margin-right: 10px;
+    background-color: white;
+    margin-top: -40px;
+    padding: 10px -1px;
+  }
+  .card-image{
+    display: flex;
+    justify-content:center;
+    margin-top: 31px ;
+  }
+  .card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .card-desc{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+  }
+  .card-title span {
+    color: rgb(176, 25, 25);
+  }
+  
+  .istoria{
+    margin-top: 166px;
+    padding-bottom: 200px;
+  }
+  .titlu-istorie{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: darkred;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+  }
+  .descriere-istorie {
+    color: #656363;
+    font-size: 18px;
+    width: 444px;
+    text-align: center;
+  }
+  
+  .numerecul{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .number-item{
+    margin-right: 57px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(218, 201, 51);
+  }
+  .number-item span {
+    display: block;
+    color: black;
+    font-size: 20px;
+  }
+  .istoria-holder{
+    display: flex;
+  }
+  .img-istorie{
+    position: relative;
+  }
+  .images-1{
+    position: absolute;
+    z-index: 999;
+    top: 54px;
+    left: 211px;
+  }
+  .images-2{
+    position: absolute;
+    z-index: 0;
+    top: -92px;
+    left: 383px;
+  }
+  .images-3{
+    position: absolute;
+    z-index: 0;
+    top: 140px;
+    left: 10px;
+  }
+  
+  .block{
+    background-image: url(img/sala2.jpg);
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    }
+    .left-title{
+      color: darkred;
+      font-family: 'Tinos', serif;
+      font-size: 52px;
+      font-weight: 550;
+      margin-bottom: 24px;
+      padding-top: 50px;
+    }
+    
+    .left-text{
+      font-weight: 700;
+      font-size: 22px;
+      color: black;
+    
+    }
+    
+    .right-btns{
+    color: white;
+    text-decoration: none;
+     padding: 16px 19px;
+     font-weight: 700;
+     transition: background-color 0.3s linear;
+     background-color:darkred;
+    
+    }
+    
+    .right-btns:hover{
+     background-color:  red;
+    
+    }
+    
+    .block-holder{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .dist{
+      font-family: 'Tinos', serif;
+      font-size: 54px;
+      text-align: center;
+      font-weight: 400;
+      padding-top: 132px;
+      margin-bottom: 139px;
+    }
+    .dist span{
+      color: darkred;
+    }
+  
+    .mancare{
+      display: flex;
+      justify-content: center;
+    }
+    .mancare-item{
+      display: flex;
+      align-items: center;
+      margin-bottom: 90px;
+    }
+    .mancare-img{
+      margin-right: 20px;
+    }
+    .mancare-text{
+      font-family: 'Tinos', serif;
+      font-size: 26px;
+      margin-left: 20px;
+    }
+  
+    .dist1{
+      padding-top: 0px;
+      margin-bottom: 10px;
+    }
+    .mancare1{
+      display: flex;
+      justify-content: center;
+    }
+    .mancare-item1{
+      display: flex;
+      align-items: center;
+      margin-bottom: 90px;
+    }
+    .mancare-img1{
+      margin-right: 20px;
+    }
+    .mancare-text1{
+      font-family: 'Tinos', serif;
+      font-size: 26px;
+      margin-left: 20px;
+    }
+  
+    .dist2{
+      padding-top: 0px;
+      margin-bottom: 10px;
+    }
+    .mancare2{
+      display: flex;
+      justify-content: center;
+    }
+    .mancare-item2{
+      display: flex;
+      align-items: center;
+      margin-bottom: 90px;
+    }
+    .mancare-img2{
+      margin-left: 8px;
+      margin-top: 50px;
+    }
+    .mancare-text2{
+      font-family: 'Tinos', serif;
+      font-size: 26px;
+      margin-left: 12px
+    }
+  
+    .img4{
+      margin-left: 160px;
+      margin-top: -1105px;
+    }
+    .right-btn:hover{
+      background-color:  red;
+    }
+    .right-btn{
+    color: white;
+    text-decoration: none;
+     padding: 16px 19px;
+     font-weight: 700;
+     transition: background-color 0.3s linear;
+     background-color:darkred;
+     margin-left: 350px;
+     margin-top: -20px;
+    }
+  
+    .mancare3{
+      display: flex;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    .mancare-item3{
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+      margin-top: 110px;
+    }
+    .mancare-img3{
+      margin-right: 5px;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    .mancare-text3{
+      font-family: 'Tinos', serif;
+      font-size: 26px;
+      margin-left: 20px;
+      margin-right: 150px;
+    }
+    .right-buttonmenu3{
+      color: white;
+      text-decoration: none;
+      padding: 16px 20px;
+      font-weight: 700;
+      background-color:darkred;
+      margin-left: 350px;
+      margin-top: -20px;
+      margin-right: 150px;
+      margin-bottom: 20px;
+      text-align: center;
+     }
+     .right-buttonmenu3:hover{
+       background-color:  red;
+     }
+  
+     .multi3{
+      margin-left: 150px;
+      margin-top: 100px;
+     }
+     .right-btn4{
+      color: white;
+      text-decoration: none;
+     }
+  
+     .servis{
+      background-image: url(img/gal3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 100px;
+    }
+    .servis-title{
+      font-family: 'Tinos', serif;
+      font-size: 54px;
+      padding-top: 98px;
+      color: darkred;
+      text-align: center;
+      padding-bottom: 138px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .servis-title span{
+      color: rgb(225, 212, 212);
+    }
+    .servis-item{
+      background-color: white;
+      text-align: center;
+      width: 33%;
+      padding-top: 80px;
+      margin-right: 20px;
+    }
+    .servis-text{
+      font-family: 'Tinos', serif;
+      font-size: 26px;
+      padding-top: 16px;
+    }
+    .servis-btn{
+      background-color: darkred;
+      text-decoration: none;
+      padding: 14px 67px;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      box-shadow: 5px 5px 10px 0px #00000040;
+    }
+    .servis-btn:hover{
+      background-color: red;
+    }
+    .servis-button{
+      margin-top: 25px;
+    }
+    .servis-items{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .end{
+      background-color:floralwhite;
+      padding-top: 104px;
+      padding-bottom: 139px;
+    }
+    .end-text{
+      text-align: center;
+      font-family: 'Tinos', serif;
+      font-size: 50px;
+      color: darkred;
+      margin-bottom: 40px;
+    }
+    .end-imagine{
+      border-radius: 100px;
+    }
+    .end-img{
+      text-align: center;
+    }
+  .end-subtext{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .galerie-titlu{
+    font-family: 'Tinos', serif;
+    color: darkred;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 60px;
+  }
+  .galerie-imagini{
+    display: flex;
+    justify-content: center;
+  }
+  .leftg{
+    margin-right: 20px;
+  }
+  .galerie-down{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  
+  .titlu-end{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .informatii-end{
+    padding-top: 100px;
+    background-color: #a2a2a2;
+    margin-top: 100px;
+    padding-bottom:  25px;
+  
+  }
+  .inf{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .social{
+    text-decoration: none;
+    color: black;
+  }
+  .m{
+    color: darkred;
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+  .social:hover{
+    color: aliceblue;
+  }
+  .video{
+    width: 800px;
+    position: relative;
+    margin-left: 480px;
+    margin-top: -250px;
+    margin-bottom: 30px;
+  }
+  .c-header{
+  text-align: center;
+  margin-top: 100px;
+  }
+  .c-header p{
+    font-size:20px;
+    color: darkred;
+    margin-bottom: 50px;
+  }
+  .con{
+    font-size: 40px;
+  }
+  
