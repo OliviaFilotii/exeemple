@@ -496,55 +496,6 @@ body{
   margin-bottom: 20px;
 }
 
-
-.titlu-end{
-  font-size: 40px;
-  font-weight: 700;
-}
-.informatii-end{
-  padding-top: 100px;
-  background-color: #a2a2a2;
-  margin-top: 100px;
-  padding-bottom:  25px;
-
-}
-.inf{
-  font-size: 20px;
-  padding: 10px;
-}
-.social{
-  text-decoration: none;
-  color: black;
-}
-.m{
-  color: darkred;
-  font-weight: 300;
-  padding-bottom: 10px;
-}
-.social:hover{
-  color: aliceblue;
-}
-.video{
-  width: 800px;
-  position: relative;
-  margin-left: 480px;
-  margin-top: -250px;
-  margin-bottom: 30px;
-}
-.c-header{
-text-align: center;
-margin-top: 100px;
-}
-.c-header p{
-  font-size:20px;
-  color: darkred;
-  margin-bottom: 50px;
-}
-.con{
-  font-size: 40px;
-}
-
-
 .bu{
   text-decoration: none;
   color: white;
@@ -568,6 +519,16 @@ margin-top: 100px;
 .form-control{
   padding: 10px 400px;
  text-align: center;
-  
 }
-
+.c-header{
+  text-align: center;
+  margin-top: 100px;
+  }
+  .c-header p{
+    font-size:20px;
+    color: darkred;
+    margin-bottom: 50px;
+  }
+  .con{
+    font-size: 40px;
+  }
