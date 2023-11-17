@@ -580,22 +580,375 @@ body{
     transform: translateX(-90px);
   }
 
-  @media (max-width: 430px){
-    body{
+  @media only screen and (max-width: 430px) {
+    body {
       margin: 0;
     }
-    .container{
+  
+    .container {
       margin: 0 5%;
       padding: 10px;
     }
-    .header{
+  
+    .header {
       background-size: cover;
       background-position: center;
-      height: 50vh;
+      height: 50vh; 
+      padding-bottom: 30px;
     }
-    .header-line{
-      padding-top: 20px;
+  
+    .header-line {
+      flex-direction: column;
+      align-items: center;
+      transform: translateY(-30px);
+    }
+    .hcautm{
+     display: none;
+    }
+    .telefon{
+      gap: 7px;
+    }
+    .left-text{
+      display: none;
+    }
+    .dist{
+      font-weight: 900;
+    }
+  
+    .mancare-item3, .mancare-item2, .mancare-item1,.mancare-item {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      margin-top: 90px;
+      flex-direction: column;
+      margin-right: 0px;
+      margin-bottom: 0px;
+    }
+  
+    .nav-item {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .nav{
+      padding-top: 15px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .telefon, .subli, .lim{
+      display: flex;
+      padding: 10px;
+    }
+    .cart{
+      display: none;
+    }
+    .header-logo{
+      display: none;
+    }
+  
+    .cart {
+      position: relative;
+      border-right: 1px solid black;
+      padding-right: 10px;
+    }
+  
+    .cart-img {
+      position: absolute;
+      right: 6px;
+    }
+  
+    .numar {
+      font-size: 18px; 
+    }
+  
+    .button {
+      padding: 12px 24px;
+    }
+  
+    .logo {
+      font-size: 24px;
+      padding: 8px;
+    }
+  
+    .cards-holder {
       flex-direction: column;
       align-items: center;
     }
+  
+    .card {
+      width: auto;
+      margin-top: 0;
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    }
+  
+    .card-image {
+      justify-content: center;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  
+    .card-desc {
+      font-size: 18px;
+    }
+  
+    .img-istorie img {
+      width: 100%;
+    }
+  
+    .block {
+      background-size: cover;
+      height: auto; 
+    }
+  
+  
+    .istoria {
+      margin-top: 20px;
+      padding-bottom: 50px;
+    }
+  
+    .titlu-istorie {
+      font-size: 32px; 
+      padding: 0 10px;
+      width: 340px;
+    }
+    .descriere-istorie {
+      font-size: 16px;
+      padding: 0 10px;
+      width: 340px;
+    }
+    
+    .numerecul {
+      margin-top: 20px;
+      margin-left: 0;
+      width: 390px;
+    }
+    
+    .number-item {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    
+    .img-istorie, .images-1, .images-2, .images-3 {
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      top: auto;
+      left: auto;
+    }
+    
+    .block {
+      padding: 30px 0;
+      height: auto;
+    }
+    
+    .left-title, .left-text, .dist, .dist span, .mancare-text, .mancare-text1, .mancare-text2, .mancare-text3 {
+      font-size: 20px;
+      text-align: center;
+      margin-right: 0px;
+    }
+    
+    .right-btn, .right-buttonmenu, .right-buttonmenu3 {
+      font-size: 18px;
+      margin: 10px auto;
+      display: block;
+    }
+    
+    .servis {
+      padding-bottom: 50px;
+    }
+    
+    .servis-title {
+      font-size: 32px;
+      padding-bottom: 50px;
+    }
+    
+    .servis-item {
+      width: 100%;
+      padding-top: 40px;
+      margin-right: 0;
+    }
+  
+  
+    .servis-btn {
+      padding: 12px 24px;
+    }
+    
+    .end {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .end-text {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    
+    .end-imagine {
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .end-subtext {
+      font-size: 16px;
+      padding-top: 15px;
+    }
+    
+    .galerie-titlu {
+      font-size: 32px;
+      padding-top: 50px;
+      margin-bottom: 30px;
+    }
+    
+    .galerie-imagini {
+      flex-direction: column;
+    }
+    
+    .leftg {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .galerie-down {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    
+    .right-btn4, .multi3 {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 100%;
+    }
+    
+    .servis-items {
+      display: block;
+      margin: 0;
+    }
+    
+    .galerie-titlu, .galerie-imagini, .galerie-down {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .right-buttonmenu, .right-buttonmenu3 {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 15px;
+    }
+    
+    .mancare, .mancare1, .mancare2, .mancare3 {
+      display: block;
+    }
+    
+    .mancare-img, .mancare-img1, .mancare-img2, .mancare-img3 {
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    
+    .end-img {
+      text-align: center;
+    }
+    
+    .end-subtext {
+      padding: 10px;
+    }
+    
+    .galerie-titlu {
+      font-size: 24px;
+      padding-top: 30px;
+      margin-bottom: 20px;
+    }
+    
+    .galerie-imagini, .galerie-down {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .leftg {
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    
+    .end-text, .end-subtext {
+      text-align: center;
+      font-size: 18px;
+    }
+    
+    .end-imagine {
+      width: 90%; 
+      border-radius: 50%;
+      margin: 20px auto; 
+    }
+    
+    .end {
+      background-color: floralwhite;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      margin: 0 1rem;
+      padding: 1rem;
+    }
+    
+    .multi, .multi1, .multi3 , .multi2, .multi4,.img4, .up,.istoria img {
+      display: none;
+    }
+    
+    .dist{
+      padding: 0;
+      margin-bottom: 0;
+    }
+    
+    .header {
+      height: 50vh;
+    }
+    
+    .header-line {
+      padding-top: 2rem;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    
+    .nav-item {
+      font-size: 20px; 
+      margin-right: 30px;
+    }
+  
+    .cart {
+      padding-right: 15px;
+    }
+  
+    .cart-img {
+      right: 10px;
+    }
+  
+    .button {
+      padding: 15px 20px;
+      font-size: 18px;
+    }
+  
+    .logo {
+      font-size: 35px;
+      padding: 15px;
+    }
+  
+    .cards-holder {
+      display: flex;
+      justify-content: space-around; 
+    }
+  
+    .card {
+      box-shadow: 10px 10px 40px 10px lightyellow;
+      width: 300px; 
+      margin: 0 15px;
+    }
+  
+    .card-title, .card-desc {
+      font-size: 24px;
+    }
+  
   }
